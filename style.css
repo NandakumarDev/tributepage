@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed:wght@300&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body{
+    background-color: whitesmoke;
+}
+.hd{
+    color:black;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    text-transform:uppercase;
+    letter-spacing: 1vh;
+    animation-name: colorchange;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+nav{
+    float:right;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 5vh;
+    padding:5px;
+} 
+nav a:hover{
+    color:gold;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+h2{
+    color:black;
+    font-weight:bold;
+    font-size: 5vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    text-decoration:underline;
+}
+span{
+    color:brown;
+}
+p{
+    color:black;
+    font-weight:bold;
+    font-size:5vh;
+    font-family: 'Dongle', sans-serif;
+    text-align: justify;   
+}
+#achievements{
+    background-color: antiquewhite;
+}
+.achive{
+    color:darkcyan;
+}
+#quotes{
+    background-color:aquamarine;
+}
+h3{
+    color:black;
+    font-weight: bolder;
+    font-size: 5vh;
+    font-family: 'Dongle', sans-serif;
+    text-align: justify;
+    text-decoration:underline;
+}
+li{
+    color:black;
+    font-weight: bolder;
+    font-size: 5vh;
+    font-family: 'Dongle', sans-serif;
+    text-align: justify;
+}
+footer{
+    background-color: black;
+}
+.foot{
+    color:white;
+    text-align: justify;
+    padding: 50px;
+}
+@keyframes colorchange{
+    0%{
+        color:black;
+    }
+    25%{
+        color:gold;
+    }
+    50%{
+        color:darkorchid;
+    }
+    100%{
+        color:darkcyan;
+    } 
+}
